@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GhostTrace Dashboard</title>
+    <link rel="stylesheet" href="/static/css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>👻 GhostTrace</h1>
+            <span class="subtitle">Stealth Proxy Chain Analyzer</span>
+            <div id="connection-status" class="status-dot disconnected"></div>
+        </header>
+
+        <div class="grid">
+            <div class="card stat-card">
+                <h3>Engine Status</h3>
+                <div id="engine-status" class="stat-value">Offline</div>
+                <div id="uptime" class="stat-label">--</div>
+            </div>
+
+            <div class="card stat-card">
+                <h3>Identities Rotated</h3>
+                <div id="rotations" class="stat-value">0</div>
+                <button id="rotate-btn" class="btn">Rotate Now</button>
+            </div>
+
+            <div class="card stat-card">
+                <h3>Active Proxies</h3>
+                <div id="proxy-count" class="stat-value">0</div>
+                <div id="chain-info" class="stat-label">Chain: --</div>
+            </div>
+
+            <div class="card stat-card">
+                <h3>Requests Sent</h3>
+                <div id="requests" class="stat-value">0</div>
+                <div id="obfuscation" class="stat-label">Obfuscation: --</div>
+            </div>
+        </div>
+
+        <div class="grid grid-2col">
+            <div class="card">
+                <h3>Proxy Chain</h3>
+                <div id="chain-visual" class="chain-visual">
+                    <span class="chain-node">You</span>
+                </div>
+                <button id="refresh-chain-btn" class="btn">Refresh Chain</button>
+            </div>
+
+            <div class="card">
+                <h3>Scan Target</h3>
+                <div class="scan-form">
+                    <input type="text" id="scan-target" placeholder="192.168.1.1" class="input">
+                    <input type="text" id="scan-ports" placeholder="22,80,443" class="input">
+                    <button id="scan-btn" class="btn">Stealth Scan</button>
+                </div>
+                <div id="scan-results" class="scan-results"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Live Log</h3>
+            <div id="log-container" class="log-container">
+                <div class="log-entry">[System] Dashboard initialized...</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Test Connection</h3>
+            <button id="test-btn" class="btn">Test Ghost Connection</button>
+            <div id="test-result" class="test-result"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

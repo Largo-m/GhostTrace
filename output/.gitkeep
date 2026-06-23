@@ -1,0 +1,14 @@
+# Custom Tor configuration
+# GhostTrace will use this if specified
+
+ControlPort 9051
+SOCKSPort 9050
+AutomapHostsOnResolve 1
+DNSPort 5353
+NewCircuitPeriod 30
+MaxCircuitDirtiness 60
+CircuitBuildTimeout 10
+LearnCircuitBuildTimeout 1
+EnforceDistinctSubnets 1
+StrictNodes 1
+ExcludeNodes {??}, {??}
