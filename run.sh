@@ -66,7 +66,7 @@ if [ -n "$TOR_EXE" ]; then
         start "" "$TOR_EXE" 2>/dev/null
     fi
     
-    echo -e "${CYAN}[*] Waiting for Tor network...${NC}"
+    echo p-e "${CYAN}[*] Waiting for Tor network...${NC}"
     echo ""
     
     for i in $(seq 1 24); do
