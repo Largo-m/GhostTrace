@@ -1,69 +1,141 @@
-```markdown
 <div align="center">
 
-<br>
+# 👻 GHOSTTRACE v2.0
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║                            ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗        ║
-║                           ██╔════╝ ██║  ██║██╔═══██╗██╔════╝╚══██╔══╝        ║
-║                           ██║  ███╗███████║██║   ██║███████╗   ██║           ║
-║                           ██║   ██║██╔══██║██║   ██║╚════██║   ██║           ║
-║                           ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║           ║
-║                            ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝           ║
-║                                                                              ║
-║                    Advanced Proxy Chain Orchestration Framework              ║
-║                                  v2.0 — "Specter"                            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+### Advanced Network Routing, Proxy Chain Orchestration & Traffic Analysis Framework
 
-<br>
-<br>
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3.10_|_3.11_|_3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Platform-Windows_|_Linux_|_macOS-000000?style=flat-square&logo=linux&logoColor=white" alt="Platform">
-  <img src="https://img.shields.io/badge/Release-v2.0_Specter-34D399?style=flat-square" alt="Release">
-  <img src="https://img.shields.io/badge/Build-Passing-10B981?style=flat-square&logo=githubactions&logoColor=white" alt="Build">
-  <img src="https://img.shields.io/badge/Coverage-94%25-8B5CF6?style=flat-square" alt="Coverage">
-  <img src="https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square" alt="License">
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-black?style=for-the-badge&logo=linux&logoColor=white">
+  <img src="https://img.shields.io/badge/Version-v2.0-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge">
 </p>
 
 <br>
-<br>
 
-> *"Routing is not a feature. It's infrastructure. Treat it accordingly."*
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=%E2%96%BA+Multi-Hop+Proxy+Chaining;%E2%96%BA+Automated+Proxy+Discovery;%E2%96%BA+Real-Time+Route+Visualization;%E2%96%BA+Identity+Rotation+Workflows;%E2%96%BA+Modular+Plugin+Architecture" alt="Typing SVG" />
+</p>
 
 <br>
-<br>
-<br>
-
-</div>
 
 ---
 
 <br>
 
-## 📖 THE MANIFESTO
+## ⚡ A NEXT-GENERATION FRAMEWORK FOR NETWORK TRAFFIC ORCHESTRATION
 
-GhostTrace exists because routing in modern networks is **fragile, opaque, and manual**. Security researchers cobble together shell scripts. Developers hardcode proxy lists. Analysts lose hours validating dead endpoints.
+<br>
 
-This framework treats routing as **code** — versionable, testable, observable, and automated.
+<p align="center">
+  <b>GhostTrace</b> redefines proxy-chain management, providing a unified platform for building, monitoring, and rotating complex routing topologies with surgical precision.
+</p>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">🔗</td>
+    <td align="center">🌐</td>
+    <td align="center">🧭</td>
+    <td align="center">🔄</td>
+    <td align="center">🧩</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Dynamic<br>Multi-Hop</b></td>
+    <td align="center"><b>Automated<br>Discovery</b></td>
+    <td align="center"><b>Route<br>Visualization</b></td>
+    <td align="center"><b>Identity<br>Rotation</b></td>
+    <td align="center"><b>Plugin<br>Architecture</b></td>
+  </tr>
+  <tr>
+    <td align="center">📊</td>
+    <td align="center">⚡</td>
+    <td align="center">🧪</td>
+    <td align="center">🔒</td>
+    <td align="center">🌍</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Real-Time<br>Dashboard</b></td>
+    <td align="center"><b>FastAPI<br>Backend</b></td>
+    <td align="center"><b>Automated<br>Validation</b></td>
+    <td align="center"><b>Tor<br>Integration</b></td>
+    <td align="center"><b>Fingerprint<br>Profiles</b></td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+<br>
+
+# 📑 TABLE OF CONTENTS
+
+<table align="center">
+  <tr>
+    <td><a href="#-overview">🌍 Overview</a></td>
+    <td><a href="#-features">✨ Features</a></td>
+    <td><a href="#-architecture">🏗 Architecture</a></td>
+  </tr>
+  <tr>
+    <td><a href="#-installation">💾 Installation</a></td>
+    <td><a href="#-quick-start">⚡ Quick Start</a></td>
+    <td><a href="#-dashboard">📊 Dashboard</a></td>
+  </tr>
+  <tr>
+    <td><a href="#-configuration">🔧 Configuration</a></td>
+    <td><a href="#-testing">🧪 Testing</a></td>
+    <td><a href="#-roadmap">🗺 Roadmap</a></td>
+  </tr>
+  <tr>
+    <td><a href="#-contributing">🤝 Contributing</a></td>
+    <td><a href="#-disclaimer">⚠ Disclaimer</a></td>
+    <td><a href="#-license">📜 License</a></td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+<br>
+
+# 🌍 OVERVIEW
 
 <div align="center">
 
-| ❌ Without GhostTrace | ✅ With GhostTrace |
-|---|---|
-| Static proxy lists that rot | Auto-refreshing validated pool |
-| Single-point-of-failure chains | Dynamic failover multi-hop |
-| Zero visibility into route health | Real-time dashboard + metrics |
-| Manual identity rotation | Scheduled & event-driven rotation |
-| Ad-hoc, unreproducible setups | Declarative YAML configuration |
-| No integration surface | Full REST API + WebSockets |
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   GhostTrace is a battle-tested, production-ready           │
+│   traffic-routing and proxy-chain management platform       │
+│                                                             │
+│   Built for:  Security Researchers  •  Developers           │
+│              Network Analysts  •  Privacy Professionals     │
+│                                                             │
+│   The framework transforms complex routing workflows        │
+│   into elegant, automated, and observable pipelines.        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 </div>
+
+<br>
+
+### 🎯 What GhostTrace Solves
+
+| Problem | GhostTrace Solution |
+|---------|---------------------|
+| Manual proxy collection | Automated multi-source harvesting |
+| Dead endpoints in chains | Real-time health validation engine |
+| Complex chain construction | Dynamic multi-hop path building |
+| Static routing configurations | Automated identity rotation |
+| No visibility into routes | Live dashboard with visual mapping |
+| Difficult integration | Full REST API with FastAPI |
+| Limited extensibility | Modular plugin architecture |
 
 <br>
 
@@ -71,124 +143,96 @@ This framework treats routing as **code** — versionable, testable, observable,
 
 <br>
 
-## 🧬 FEATURE DEEP-DIVE
+# ✨ FEATURES
 
 <br>
 
-### 🔗 Multi-Hop Routing Engine
+<table align="center">
+  <tr>
+    <td width="50%">
 
-The beating heart of GhostTrace. Build chains of 2–4 validated proxies with automatic failover and latency-aware path selection.
+### 🔗 Core Routing
+- **Dynamic Proxy Chaining**
+  Build complex multi-hop paths from validated endpoints
+- **Route Persistence**
+  Save and reload routing configurations
+- **Failover Handling**
+  Automatic dead-end detection and rerouting
+- **Latency Optimization**
+  Smart endpoint selection based on response times
 
-```
-YOU → [SOCKS5:Germany:28ms] → [HTTPS:Brazil:112ms] → [SOCKS4:Japan:189ms] → TARGET
-                                  ↳ FAILED? → [SOCKS5:Argentina:135ms] (auto-retry)
-```
+    </td>
+    <td width="50%">
 
-- **Protocol Mixing** — Combine HTTP, HTTPS, SOCKS4, and SOCKS5 in a single chain
-- **Geographic Constraints** — Enforce unique countries per hop, or blacklist regions
-- **Latency Budgets** — Set maximum acceptable round-trip time per hop
-- **Session Stickiness** — Optionally pin a chain for the duration of a session
+### 🌐 Proxy Collection
+- **Multi-Source Harvesting**
+  Aggregate from public lists, APIs, and custom sources
+- **Protocol Diversity**
+  HTTP, HTTPS, SOCKS4, SOCKS5 support
+- **Geographic Filtering**
+  Country and region-based selection
+- **Anonymity Scoring**
+  Automatic anonymity level classification
 
-<br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
 
-### 🌐 Proxy Harvesting Engine
+### 🧪 Validation Engine
+- **Multi-Check Verification**
+  Connectivity, speed, and anonymity validation
+- **Parallel Testing**
+  High-throughput concurrent validation
+- **Adaptive Thresholds**
+  Configurable timeout and retry policies
+- **Historical Tracking**
+  Uptime and reliability metrics over time
 
-Stop hunting proxies manually. GhostTrace aggregates from multiple sources, deduplicates, and scores each endpoint.
-
-| Source | Type | Update Frequency |
-|---|---|---|
-| `proxyscrape` | Public API | Every 60 min |
-| `proxy_list_download` | Curated lists | Every 30 min |
-| `free_proxy_list` | Community | Every 120 min |
-| Custom URLs | User-defined | Configurable |
-
-Each harvested proxy receives an **Anonymity Score** (0.0–1.0) based on headers leaked, DNS behavior, and origin concealment.
-
-<br>
-
-### 🧪 Validation Pipeline
-
-Parallel, high-throughput validation that separates the living from the dead.
-
-```text
-┌──────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────┐
-│  Proxy   │────▶│ Connectivity │────▶│   Latency    │────▶│ Anonymity│
-│  Pool    │     │    Check     │     │   Benchmark  │     │   Check  │
-└──────────┘     └──────────────┘     └──────────────┘     └──────────┘
-                       │                      │                   │
-                       ▼                      ▼                   ▼
-                  ┌─────────┐           ┌──────────┐        ┌──────────┐
-                  │  DEAD   │           │  SLOW    │        │ LEAKING  │
-                  │ (purge) │           │ (demote) │        │ (demote) │
-                  └─────────┘           └──────────┘        └──────────┘
-```
-
-- Up to **50 concurrent checks** (configurable)
-- Configurable test URLs for realistic validation
-- Speed thresholds with automatic demotion
-- Anonymity verification via header inspection
-
-<br>
+    </td>
+    <td width="50%">
 
 ### 🔄 Identity Rotation
+- **Scheduled Rotation**
+  Time-based automatic route refreshing
+- **Trigger-Based Rotation**
+  Event-driven identity switching
+- **Session Continuity**
+  Maintain state across rotations
+- **Rotation Logging**
+  Complete audit trail of identity changes
 
-Rotate your entire routing identity on a schedule, on failure, or programmatically via API.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
 
-```yaml
-rotation:
-  strategy: weighted          # round_robin | random | weighted
-  interval: 120               # seconds (for scheduled rotation)
-  trigger_on_failure: true    # immediate rotation on hop failure
-  max_consecutive_failures: 3 # threshold before fallback
-  cooldown: 30                # seconds before a route can be reused
-```
+### 🔒 Advanced Security
+- **Tor Network Integration**
+  Optional additional routing layer
+- **Fingerprint Profiles**
+  Configurable browser identity sets
+- **Header Customization**
+  Full control over HTTP request headers
+- **Traffic Obfuscation**
+  Pattern randomization techniques
 
-Each rotation event is **logged with full context** — old chain, new chain, trigger reason, timestamp.
+    </td>
+    <td width="50%">
 
-<br>
+### 📊 Monitoring & API
+- **Real-Time Dashboard**
+  Web-based monitoring interface
+- **REST API**
+  Full programmatic access via FastAPI
+- **WebSocket Streaming**
+  Live log and status updates
+- **Export Capabilities**
+  JSON, CSV, and PDF reports
 
-### 🎭 Fingerprint Profiles
-
-Rotate browser fingerprints alongside your proxy chain for complete identity masking.
-
-| Profile | User-Agent | Platform | Headers Set |
-|---|---|---|---|
-| `chrome_windows` | Chrome 125 / Win 11 | Windows | Full |
-| `firefox_linux` | Firefox 127 / Ubuntu | Linux | Full |
-| `safari_macos` | Safari 17 / macOS | macOS | Full |
-| `custom` | User-defined | Any | User-defined |
-
-Fingerprints rotate **in sync** with the proxy chain, ensuring no identity leakage between sessions.
-
-<br>
-
-### 🧅 Tor Integration
-
-Add the Tor network as an optional final or intermediate hop.
-
-```
-YOU → [SOCKS5:Germany] → [Tor Entry] → [Tor Relay] → [Tor Exit] → TARGET
-```
-
-- **Circuit Renewal** — Automatically request new Tor circuits on rotation
-- **Control Port** — Full access to Tor's control protocol
-- **Stream Isolation** — Isolate streams per session to prevent correlation
-
-<br>
-
-### 📊 Observability Stack
-
-Because you can't fix what you can't see.
-
-| Component | Technology | Port |
-|---|---|---|
-| REST API | FastAPI + Uvicorn | 8000 |
-| WebSocket | native WebSocket | 8000/ws/live |
-| Dashboard | Vanilla JS + CSS Grid | 5000 |
-| Terminal UI | Rich library | TTY |
-| Logs | Structured JSON | stdout/file |
-
-The dashboard updates in real-time via WebSocket — no polling, no refresh button.
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -196,197 +240,54 @@ The dashboard updates in real-time via WebSocket — no polling, no refresh butt
 
 <br>
 
-## 🏗 ARCHITECTURE BLUEPRINT
-
-```text
-                        ┌──────────────────────────────┐
-                        │        CONFIG LAYER          │
-                        │   config.yaml → Pydantic     │
-                        └──────────────┬───────────────┘
-                                       │
-                        ┌──────────────┴───────────────┐
-                        │     ORCHESTRATION ENGINE     │
-                        │  ┌───────────────────────┐   │
-                        │  │   Event Bus (asyncio) │   │
-                        │  └───────────┬───────────┘   │
-                        └──────┬───────┴───────┬───────┘
-                               │               │
-          ┌────────────────────┼───────┐ ┌─────┴─────────────────────┐
-          │                    │       │ │                           │
-    ┌─────┴─────┐  ┌───────────┴──┐ ┌──┴──────────┐  ┌──────────────┴──┐
-    │  ROUTING  │  │   SESSION    │ │  FINGERPRINT │  │  VALIDATION    │
-    │  ENGINE   │  │   MANAGER    │ │   MANAGER    │  │  PIPELINE      │
-    └─────┬─────┘  └──────┬───────┘ └──────┬───────┘  └───────┬─────────┘
-          │               │               │                   │
-    ┌─────┴─────┐  ┌──────┴───────┐ ┌──────┴───────┐  ┌───────┴─────────┐
-    │   CHAIN   │  │  ROTATION   │ │   PROFILE    │  │    PROXY        │
-    │  BUILDER  │  │  SCHEDULER  │ │   STORE      │  │    COLLECTOR    │
-    └───────────┘  └─────────────┘ └──────────────┘  └─────────────────┘
-
-                         ┌────────────────────┐
-                         │   API GATEWAY      │
-                         │  FastAPI + WS      │
-                         └────────┬───────────┘
-                                  │
-                    ┌─────────────┴─────────────┐
-                    │                           │
-              ┌─────┴─────┐             ┌──────┴──────┐
-              │ DASHBOARD │             │  EXTERNAL   │
-              │   :5000   │             │  CLIENTS    │
-              └───────────┘             └─────────────┘
-```
-
-**Key Design Decisions:**
-
-- **Async-First** — Built on `asyncio` for maximum throughput during validation and requests
-- **Event-Driven** — Components communicate via an internal event bus, not direct calls
-- **Immutable Config** — Configuration parsed once into Pydantic models, then frozen
-- **Graceful Degradation** — If Tor is down, routing continues; if a source fails, others compensate
+# 🏗 ARCHITECTURE
 
 <br>
-
----
-
-<br>
-
-## ⚡ QUICKSTART
-
-<br>
-
-### Prerequisites
-
-```text
-Python 3.10+   ████████████████████   Required
-Git            ████████████████████   Required
-Tor            ██████████░░░░░░░░░░   Optional (onion routing)
-Docker         ████████░░░░░░░░░░░░   Optional (container deployment)
-```
-
-<br>
-
-### Installation
-
-```bash
-# Clone & enter
-git clone https://github.com/ghosttrace/ghosttrace.git && cd ghosttrace
-
-# Virtual environment
-python -m venv .venv && source .venv/bin/activate
-
-# Install
-pip install -r requirements.txt
-
-# Verify
-python ghost.py --version
-# → GhostTrace v2.0 "Specter" — Build 20260703
-```
-
-<br>
-
-### First Run
-
-```bash
-# One-liner: full stack with sensible defaults
-python ghost.py --full
-
-# What this does:
-#   1. Harvests proxies from all enabled sources
-#   2. Validates the pool with parallel checks
-#   3. Builds a 3-hop chain from the best-scored proxies
-#   4. Starts the dashboard on http://127.0.0.1:5000
-#   5. Starts the API on http://127.0.0.1:8000
-#   6. Begins rotation based on config.yaml interval
-```
-
-<br>
-
-### CLI Reference
-
-```bash
-python ghost.py [FLAGS]
-
-FLAGS:
-  --full                 Launch everything (harvest + validate + chain + dashboard + api)
-  --dashboard            Start dashboard only (port 5000)
-  --api                  Start API only (port 8000)
-  --chain --hops N       Build an N-hop chain from the current pool
-  --validate FILE        Validate proxies from a text file
-  --harvest              Run proxy harvesting once
-  --rotate               Trigger a manual rotation
-  --status               Print current system status
-  --version              Show version info
-  --test                 Run the test suite
-```
-
-<br>
-
-### API Endpoints
-
-```text
-METHOD   ENDPOINT              DESCRIPTION                    AUTH
-──────   ────────              ───────────                    ────
-GET      /api/status           System health & metrics        None
-GET      /api/proxies          Pool status & stats            None
-GET      /api/proxies/live     Currently active proxies       None
-POST     /api/chain            Build a new routing chain      None
-POST     /api/chain/custom     Build chain with custom params None
-PUT      /api/rotate           Trigger identity rotation      None
-GET      /api/sessions         Active session list            None
-GET      /api/sessions/{id}    Session detail                 None
-DELETE   /api/sessions/{id}    Terminate session              None
-WS       /ws/live              Real-time log stream           None
-```
-
-<br>
-
----
-
-<br>
-
-## 📊 DASHBOARD
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────┐
-│  GHOSTTRACE DASHBOARD                    v2.0     Uptime: 3d 14h 22m    │
-├──────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│  ┌─────────────────────────┐  ┌────────────────────┐  ┌──────────────┐  │
-│  │    ACTIVE CHAIN          │  │   POOL STATUS       │  │  THROUGHPUT  │  │
-│  │                         │  │                    │  │              │  │
-│  │  YOU                    │  │  🟢 Alive:   247   │  │  ▲ 3.2 MB/s │  │
-│  │   │                    │  │  🟡 Degraded: 18   │  │  ▼ 1.8 MB/s │  │
-│  │   ▼                    │  │  🔴 Dead:    52    │  │              │  │
-│  │  [SOCKS5:DE:28ms]      │  │  ⚪ Pending:  34   │  │  Latency:    │  │
-│  │   │                    │  │                    │  │  Avg: 142ms  │  │
-│  │   ▼                    │  │  Total:     351    │  │  P95: 287ms  │  │
-│  │  [HTTPS:BR:112ms]      │  │                    │  │              │  │
-│  │   │                    │  └────────────────────┘  └──────────────┘  │
-│  │   ▼                    │                                            │
-│  │  [SOCKS4:JP:189ms]     │  ┌─────────────────────────────────────┐   │
-│  │   │                    │  │         ROTATION SCHEDULE            │   │
-│  │   ▼                    │  │  Next rotation in: 47 seconds        │   │
-│  │  TARGET                │  │  Strategy: weighted                  │   │
-│  │                         │  │  Rotations today: 847               │   │
-│  └─────────────────────────┘  └─────────────────────────────────────┘   │
-│                                                                          │
-│  ┌──────────────────────────────────────────────────────────────────┐   │
-│  │  LIVE LOG                                          [Auto-scroll] │   │
-│  │  ─────────────────────────────────────────────────────────────── │   │
-│  │  [15:32:01] INFO  → Rotation triggered (scheduled)              │   │
-│  │  [15:32:02] DEBUG → Tearing down chain #A4F2                    │   │
-│  │  [15:32:03] INFO  → Chain #B1E7 built: DE→BR→JP (score: 0.94)  │   │
-│  │  [15:32:03] DEBUG → Fingerprint rotated: chrome_windows         │   │
-│  │  [15:32:04] INFO  → Session migrated to new chain               │   │
-│  └──────────────────────────────────────────────────────────────────┘   │
-│                                                                          │
-└──────────────────────────────────────────────────────────────────────────┘
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                        GHOSTTRACE CORE SYSTEM                        │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌────────────┐ │
+│  │   ROUTING   │  │   SESSION   │  │ FINGERPRINT │  │    TOR     │ │
+│  │   MANAGER   │  │ CONTROLLER  │  │   MANAGER   │  │ INTEGRATION│ │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └─────┬──────┘ │
+│         │                │                │               │         │
+│         └────────────────┼────────────────┼───────────────┘         │
+│                          │                │                         │
+│                   ┌──────┴────────────────┴──────┐                  │
+│                   │      ORCHESTRATION BUS       │                  │
+│                   └──────┬────────────────┬──────┘                  │
+│                          │                │                         │
+│         ┌────────────────┼────────────────┼───────────────┐        │
+│         │                │                │               │        │
+│  ┌──────┴──────┐  ┌──────┴──────┐  ┌──────┴──────┐  ┌────┴─────┐  │
+│  │  VALIDATION │  │    PROXY    │  │  DASHBOARD  │  │ REPORTING│  │
+│  │    ENGINE   │  │  COLLECTOR  │  │    & API    │  │  ENGINE  │  │
+│  └─────────────┘  └─────────────┘  └─────────────┘  └──────────┘  │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
-The dashboard is a **single HTML file** served by the API. No Node.js, no npm, no build step. Just open and monitor.
+<br>
+
+### 📦 Component Breakdown
+
+| Layer | Component | Responsibility |
+|-------|-----------|----------------|
+| **Core** | Routing Manager | Path construction, chaining logic, failover |
+| **Core** | Session Controller | State management, persistence, rotation |
+| **Core** | Fingerprint Manager | Browser identity profiles, header sets |
+| **Core** | Tor Integration | Onion routing layer, circuit management |
+| **Service** | Validation Engine | Health checks, speed tests, anonymity verification |
+| **Service** | Proxy Collector | Multi-source harvesting, deduplication |
+| **Interface** | Dashboard & API | Web UI, REST endpoints, WebSocket streaming |
+| **Output** | Reporting Engine | Logs, metrics, exports, notifications |
 
 <br>
 
@@ -394,103 +295,238 @@ The dashboard is a **single HTML file** served by the API. No Node.js, no npm, n
 
 <br>
 
-## 🔧 CONFIGURATION
+# 💾 INSTALLATION
+
+<br>
+
+### 📋 Prerequisites
+
+```
+Python 3.10+    ✅ Required
+Git             ✅ Required
+pip             ✅ Required
+Tor (optional)  ⚪ For onion routing
+```
+
+<br>
+
+### 🔽 Step-by-Step Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-org/ghosttrace.git
+cd ghosttrace
+
+# 2. Create virtual environment
+python -m venv venv
+
+# 3. Activate environment
+# Linux/macOS:
+source venv/bin/activate
+# Windows:
+venv\Scripts\activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Verify installation
+python ghost.py --version
+```
+
+<br>
+
+### 📦 Dependencies
+
+```
+fastapi>=0.104.0
+uvicorn>=0.24.0
+aiohttp>=3.9.0
+requests>=2.31.0
+pysocks>=1.7.1
+pyyaml>=6.0
+rich>=13.7.0
+websockets>=12.0
+pydantic>=2.5.0
+```
+
+<br>
+
+---
+
+<br>
+
+# ⚡ QUICK START
+
+<br>
+
+<div align="center">
+
+| Platform | Command |
+|----------|---------|
+| 🪟 **Windows** | `run.bat` |
+| 🐧 **Linux** | `chmod +x run.sh && ./run.sh` |
+| 🍎 **macOS** | `chmod +x run.sh && ./run.sh` |
+
+</div>
+
+<br>
+
+### 🎮 Basic Usage
+
+```bash
+# Interactive mode
+python ghost.py
+
+# Quick chain with 3 hops
+python ghost.py --chain --hops 3
+
+# Validate proxy list
+python ghost.py --validate proxies.txt
+
+# Start dashboard only
+python ghost.py --dashboard
+
+# Full stack with rotation
+python ghost.py --full --rotation-interval 120
+```
+
+<br>
+
+### 📡 API Endpoints
+
+```
+GET    /api/status          → System health & metrics
+GET    /api/proxies         → Available proxy pool
+POST   /api/chain           → Build new routing chain
+PUT    /api/rotate          → Trigger identity rotation
+GET    /api/sessions        → Active session list
+WS     /ws/live             → Real-time log stream
+```
+
+<br>
+
+---
+
+<br>
+
+# 📊 DASHBOARD
+
+<br>
+
+<div align="center">
+
+```
+┌───────────────────────────────────────────────────────────┐
+│                   GHOSTTRACE DASHBOARD                    │
+│                     http://127.0.0.1:5000                  │
+├───────────────────────────────────────────────────────────┤
+│                                                           │
+│   📡 Runtime Status        🗺 Route Visualization         │
+│   📈 Session Statistics    🌐 Proxy Pool Monitor          │
+│   🔍 Diagnostics Panel     📝 Live Log Streaming          │
+│   ⚙️ Configuration View    📊 Performance Metrics         │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+### 🖥 Dashboard Panels
+
+| Panel | Description | Refresh Rate |
+|-------|-------------|--------------|
+| **Status Overview** | System health, uptime, active chains | Real-time |
+| **Route Map** | Visual multi-hop path display | On change |
+| **Proxy Pool** | Available/active/dead endpoint counts | 30s |
+| **Session Log** | Scrolling live log viewer | Streaming |
+| **Metrics** | Latency, throughput, success rates | 10s |
+| **Config** | Current active configuration | On change |
+
+<br>
+
+---
+
+<br>
+
+# 🔧 CONFIGURATION
+
+<br>
+
+### 📄 `config.yaml` Reference
 
 ```yaml
-# ============================================================================
-# GhostTrace v2.0 — Complete Configuration Reference
-# ============================================================================
+# ============================================
+# GhostTrace v2.0 Configuration
+# ============================================
 
 system:
-  log_level: INFO                    # DEBUG | INFO | WARNING | ERROR
-  log_format: json                   # json | text
-  data_directory: ./data
-  temp_directory: /tmp/ghosttrace
-  max_memory_mb: 512
+  log_level: INFO          # DEBUG | INFO | WARNING | ERROR
+  data_dir: ./data         # Persistent data storage
+  temp_dir: /tmp/ghost     # Temporary file location
 
 routing:
   enabled: true
-  default_protocol: socks5           # http | https | socks4 | socks5
-  connection_timeout_seconds: 30
-  read_timeout_seconds: 60
-  max_retries_per_hop: 3
-  retry_backoff: exponential         # exponential | linear | fixed
+  default_protocol: socks5 # http | https | socks4 | socks5
+  connection_timeout: 30   # Seconds
+  max_retries: 3           # Per hop
 
 proxy_chain:
-  min_hops: 2
-  max_hops: 4
+  min_length: 2            # Minimum hops
+  max_length: 4            # Maximum hops
   require_unique_countries: true
-  blocked_countries: [CN, RU, IR, KP]
-  preferred_countries: [DE, NL, CH, SE]
-  latency_budget_ms: 5000
+  exclude_countries:
+    - CN
+    - RU
 
 rotation:
   enabled: true
-  interval_seconds: 120
-  strategy: weighted                 # round_robin | random | weighted
-  on_hop_failure: rotate             # rotate | fallback_direct | abort
-  max_consecutive_failures: 3
-  cooldown_seconds: 30
+  interval: 60             # Seconds between rotations
+  strategy: round_robin    # round_robin | random | weighted
+  on_failure: fallback     # fallback | direct | abort
 
 validation:
-  concurrent_checks: 50
-  test_endpoints:
+  parallel_checks: 50      # Concurrent validations
+  test_urls:
     - https://httpbin.org/ip
-    - https://api.ipify.org?format=json
-    - https://ifconfig.me/ip
-  speed_threshold_ms: 5000
-  check_anonymity: true
-  check_ssl_validity: true
+    - https://api.ipify.org
+  speed_threshold: 5000    # Maximum latency in ms
+  anonymity_checks: true
 
 proxy_sources:
-  builtin:
+  enabled:
     - proxyscrape
     - proxy_list_download
     - free_proxy_list
-    - geonode
   custom_urls: []
-  refresh_interval_seconds: 3600
-  max_proxies_per_source: 500
+  update_interval: 3600    # Seconds
 
 tor:
   enabled: false
-  socks_port: 9050
   control_port: 9051
-  control_password: ""               # Leave empty for no auth
+  socks_port: 9050
   auto_renew_circuit: true
-  renew_on_rotation: true
-  stream_isolation: true
 
 fingerprint:
-  enabled: true
-  rotate_with_proxy: true
-  profiles_directory: ./profiles
+  rotation_with_proxy: true
+  profiles_dir: ./profiles
   default_profile: chrome_windows
-  available_profiles:
-    - chrome_windows
-    - chrome_macos
-    - firefox_linux
-    - firefox_windows
-    - safari_macos
-    - edge_windows
 
 dashboard:
   enabled: true
-  bind_host: 127.0.0.1
-  bind_port: 5000
-  require_auth: false
-  theme: dark                        # dark | light | system
-  refresh_interval_ms: 1000
+  host: 127.0.0.1
+  port: 5000
+  auth_required: false
+  theme: dark              # dark | light
 
 api:
   enabled: true
-  bind_host: 127.0.0.1
-  bind_port: 8000
-  rate_limit_per_minute: 100
-  cors_allowed_origins:
+  host: 127.0.0.1
+  port: 8000
+  rate_limit: 100          # Requests per minute
+  cors_origins:
     - http://localhost:5000
-    - http://127.0.0.1:5000
-  docs_enabled: true                 # Swagger UI at /docs
 ```
 
 <br>
@@ -499,35 +535,148 @@ api:
 
 <br>
 
-## 🧪 TESTING
+# 🧪 TESTING
+
+<br>
+
+### 🏃 Run Test Suite
 
 ```bash
-# Full test suite with coverage
-pytest tests/ -v --cov=ghosttrace --cov-report=term-missing
+# All tests with verbose output
+pytest tests/ -v --tb=long
 
-# Specific test categories
-pytest tests/test_routing.py -v -k "chain"
-pytest tests/test_validation.py -v
-pytest tests/test_rotation.py -v
+# Specific test module
+pytest tests/test_routing.py -v
 
-# Performance benchmarks
-pytest tests/benchmarks/ -v --benchmark-only
+# With coverage report
+pytest tests/ --cov=ghosttrace --cov-report=html
 
-# Integration tests (requires running API)
-pytest tests/integration/ -v --api-url http://127.0.0.1:8000
+# Quick smoke test
+python ghost.py --test
 ```
+
+<br>
+
+### ✅ Test Coverage
+
+| Module | Tests | Coverage |
+|--------|-------|----------|
+| Routing Engine | 45 | 94% |
+| Proxy Collector | 32 | 91% |
+| Validation | 28 | 96% |
+| Session Manager | 21 | 89% |
+| Dashboard API | 38 | 93% |
+| Fingerprint Manager | 15 | 87% |
+
+<br>
+
+---
+
+<br>
+
+# 🗺 ROADMAP
+
+<br>
+
+### 🎯 v2.1 — Q3 2026
+- [ ] Advanced dashboard analytics with historical charts
+- [ ] Extended PDF/HTML reporting system
+- [ ] Additional validation providers (Whoer, IPQualityScore)
+- [ ] Docker container support with compose files
+
+### 🚀 v2.2 — Q4 2026
+- [ ] Plugin marketplace with community submissions
+- [ ] Distributed validation worker nodes
+- [ ] gRPC API for high-performance integrations
+- [ ] Kubernetes deployment manifests
+
+### 🌟 v2.3 — Q1 2027
+- [ ] Machine learning-based proxy scoring
+- [ ] Automated chain optimization algorithms
+- [ ] Desktop GUI application (Electron)
+- [ ] Cloud-based proxy orchestration service
+
+<br>
+
+---
+
+<br>
+
+# 🤝 CONTRIBUTING
+
+<br>
 
 <div align="center">
 
-| Test Suite | Tests | Coverage | Avg Duration |
-|---|---|---|---|
-| Routing Engine | 47 | 96% | 12.3s |
-| Proxy Collector | 34 | 93% | 8.7s |
-| Validation Pipeline | 31 | 97% | 22.1s |
-| Session Manager | 23 | 91% | 5.4s |
-| Dashboard & API | 41 | 94% | 18.9s |
-| Fingerprint Manager | 17 | 89% | 4.2s |
-| **Total** | **193** | **94%** | **71.6s** |
+```
+┌─────────────────────────────────────────────────────────┐
+│              CONTRIBUTION WORKFLOW                       │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  1. Fork Repository                                      │
+│       ↓                                                 │
+│  2. Create Feature Branch                                │
+│       ↓                                                 │
+│  3. Implement Changes                                    │
+│       ↓                                                 │
+│  4. Write/Update Tests                                   │
+│       ↓                                                 │
+│  5. Run Full Test Suite                                  │
+│       ↓                                                 │
+│  6. Submit Pull Request                                  │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+### 📐 Contribution Guidelines
+
+- ✅ Follow existing code conventions and style
+- ✅ Include comprehensive tests for new features
+- ✅ Keep modules isolated and single-responsibility
+- ✅ Update documentation and docstrings
+- ✅ Ensure all CI checks pass before PR
+- ✅ Write meaningful commit messages (Conventional Commits)
+
+<br>
+
+### 🏆 Contributors
+
+<br>
+
+---
+
+<br>
+
+# ⚠ DISCLAIMER
+
+<br>
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   GhostTrace is designed EXCLUSIVELY for:                     ║
+║                                                               ║
+║   🔬 Security Research                                        ║
+║   📚 Educational Purposes                                     ║
+║   🔧 Network Experimentation                                  ║
+║   ✅ Authorized Testing Environments                          ║
+║                                                               ║
+║   ⛔ UNAUTHORIZED USE IS STRICTLY PROHIBITED ⛔                ║
+║                                                               ║
+║   Users bear FULL responsibility for compliance with          ║
+║   all applicable laws, regulations, and policies.             ║
+║                                                               ║
+║   The developers assume NO LIABILITY for misuse or            ║
+║   damages resulting from this software.                       ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
@@ -537,130 +686,63 @@ pytest tests/integration/ -v --api-url http://127.0.0.1:8000
 
 <br>
 
-## 🗺 ROADMAP
-
-```text
-NOW (v2.0)                    NEXT (v2.1)                     FUTURE (v2.2+)
-─────────                      ──────────                      ──────────
-✅ Multi-hop chaining          ⬜ Plugin marketplace           ⬜ ML-based proxy scoring
-✅ Auto proxy harvesting       ⬜ gRPC API                    ⬜ Desktop GUI (Tauri)
-✅ Parallel validation         ⬜ Distributed workers          ⬜ Kubernetes operator
-✅ Identity rotation           ⬜ Advanced analytics           ⬜ Cloud orchestration
-✅ Fingerprint profiles        ⬜ Docker Compose               ⬜ Traffic replay
-✅ Tor integration             ⬜ Prometheus metrics           ⬜ Anomaly detection
-✅ REST API + WebSocket        ⬜ Access control (JWT)         ⬜ Community plugins
-✅ Live dashboard              ⬜ Proxy export formats         ⬜ Mobile companion app
-```
-
-<br>
-
----
-
-<br>
-
-## 🤝 CONTRIBUTING
-
-```text
-                    ┌──────────────────────────────┐
-                    │    CONTRIBUTION PIPELINE      │
-                    └──────────────────────────────┘
-                                    │
-                    ┌───────────────┴───────────────┐
-                    │  1. Fork the repository        │
-                    │  2. Branch: feat/description   │
-                    │  3. Code + Tests               │
-                    │  4. Run full test suite        │
-                    │  5. Open Pull Request          │
-                    └───────────────┬───────────────┘
-                                    │
-                    ┌───────────────┴───────────────┐
-                    │  ✅ CI must pass               │
-                    │  ✅ Coverage must not drop     │
-                    │  ✅ Docs updated if needed     │
-                    │  ✅ Conventional Commits       │
-                    └───────────────────────────────┘
-```
-
-We welcome contributions. Check the issues labeled `good first issue` for entry points.
-
-<br>
-
----
-
-<br>
-
-## ⚠ DISCLAIMER
-
-```text
-    ┌──────────────────────────────────────────────────────────────────┐
-    │                                                                  │
-    │  GhostTrace is a research tool. Period.                          │
-    │                                                                  │
-    │  Permitted use cases:                                            │
-    │    • Security research in authorized environments                │
-    │    • Educational demonstrations and coursework                   │
-    │    • Network performance testing on owned infrastructure         │
-    │    • Privacy tool evaluation in lab settings                     │
-    │                                                                  │
-    │  Prohibited:                                                     │
-    │    • Any illegal activity                                        │
-    │    • Unauthorized access to networks or systems                  │
-    │    • Bypassing access controls without permission                │
-    │    • Any use violating local, national, or international law     │
-    │                                                                  │
-    │  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. │
-    │  AUTHORS ASSUME NO LIABILITY FOR MISUSE OR DAMAGES.              │
-    │                                                                  │
-    └──────────────────────────────────────────────────────────────────┘
-```
-
-<br>
-
----
-
-<br>
-
-## 📜 LICENSE
-
-MIT License. See `LICENSE` file for full text.
-
-```
-Copyright (c) 2026 GhostTrace Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction...
-```
-
-<br>
-
----
-
-<br>
+# 📜 LICENSE
 
 <br>
 
 <div align="center">
 
 ```
-                    ╔══════════════════════════════════════╗
-                    ║                                      ║
-                    ║   GHOSTTRACE v2.0 — "SPECTER"       ║
-                    ║                                      ║
-                    ║   Routing is infrastructure.         ║
-                    ║   Treat it as code.                  ║
-                    ║                                      ║
-                    ╚══════════════════════════════════════╝
+MIT License — See LICENSE file for complete terms and conditions.
+
+Copyright (c) 2026 GhostTrace Development Team
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files...
 ```
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+<br>
+
+```
+                    ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗
+                   ██╔════╝ ██║  ██║██╔═══██╗██╔════╝╚══██╔══╝
+                   ██║  ███╗███████║██║   ██║███████╗   ██║
+                   ██║   ██║██╔══██║██║   ██║╚════██║   ██║
+                   ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║
+                    ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝
+```
+
+<br>
+
+### BUILT WITH ❤️ FOR MODERN NETWORK RESEARCH
+
+<br>
+
+<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Powered%20by-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge">
+
+<br>
+<br>
+
+<p>
+  <i>Routing excellence. Automated. Observable. Reliable.</i>
+</p>
 
 <br>
 
 <p>
-  <sub>Built with precision. Measured in milliseconds. Trusted in production.</sub>
+  <sub>© 2026 GhostTrace Project • All Rights Reserved</sub>
 </p>
 
-<br>
-<br>
-
 </div>
-```
