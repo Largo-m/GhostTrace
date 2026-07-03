@@ -1,0 +1,76 @@
+# Tor state file last generated on 2026-06-24 03:03:49 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+CircuitBuildTimeBin 465 1
+CircuitBuildTimeBin 485 4
+CircuitBuildTimeBin 495 7
+CircuitBuildTimeBin 505 4
+CircuitBuildTimeBin 515 5
+CircuitBuildTimeBin 525 10
+CircuitBuildTimeBin 535 13
+CircuitBuildTimeBin 545 12
+CircuitBuildTimeBin 555 8
+CircuitBuildTimeBin 565 8
+CircuitBuildTimeBin 575 19
+CircuitBuildTimeBin 585 12
+CircuitBuildTimeBin 595 8
+CircuitBuildTimeBin 605 11
+CircuitBuildTimeBin 615 9
+CircuitBuildTimeBin 625 3
+CircuitBuildTimeBin 635 4
+CircuitBuildTimeBin 645 4
+CircuitBuildTimeBin 655 4
+CircuitBuildTimeBin 665 2
+CircuitBuildTimeBin 675 1
+CircuitBuildTimeBin 685 8
+CircuitBuildTimeBin 695 1
+CircuitBuildTimeBin 705 3
+CircuitBuildTimeBin 715 2
+CircuitBuildTimeBin 725 2
+CircuitBuildTimeBin 745 6
+CircuitBuildTimeBin 755 1
+CircuitBuildTimeBin 765 1
+CircuitBuildTimeBin 785 6
+CircuitBuildTimeBin 795 1
+CircuitBuildTimeBin 805 2
+CircuitBuildTimeBin 815 1
+CircuitBuildTimeBin 825 1
+CircuitBuildTimeBin 845 1
+CircuitBuildTimeBin 855 1
+CircuitBuildTimeBin 865 1
+CircuitBuildTimeBin 895 1
+CircuitBuildTimeBin 935 1
+CircuitBuildTimeBin 955 1
+CircuitBuildTimeBin 965 1
+CircuitBuildTimeBin 1005 2
+CircuitBuildTimeBin 1035 1
+CircuitBuildTimeBin 1045 1
+CircuitBuildTimeBin 1055 1
+CircuitBuildTimeBin 1075 1
+CircuitBuildTimeBin 1235 2
+CircuitBuildTimeBin 1275 2
+CircuitBuildTimeBin 1295 1
+CircuitBuildTimeBin 1325 2
+CircuitBuildTimeBin 1455 1
+CircuitBuildTimeBin 1465 1
+CircuitBuildTimeBin 1575 2
+CircuitBuildTimeBin 1635 1
+CircuitBuildTimeBin 1705 1
+CircuitBuildTimeBin 1855 1
+CircuitBuildTimeBin 2225 1
+CircuitBuildTimeBin 2285 1
+CircuitBuildTimeBin 2405 1
+CircuitBuildTimeBin 2475 1
+CircuitBuildTimeBin 3185 1
+CircuitBuildTimeBin 3325 1
+CircuitBuildTimeBin 3345 1
+CircuitBuildTimeBin 3465 1
+CircuitBuildTimeBin 3755 1
+CircuitBuildAbandonedCount 2
+Dormant 0
+Guard in=bridges rsa_id=25CB8D6D2302751480E4DDCABBDB476D8BF7D505 bridge_addr=192.87.28.66:8443 sampled_on=2026-06-20T01:58:53 sampled_idx=0 sampled_by=0.4.8.13 listed=1
+Guard in=bridges rsa_id=840972073657B5E514656C7B85BDDF087D8FE095 bridge_addr=94.159.96.203:4443 sampled_on=2026-06-12T06:41:04 sampled_idx=1 sampled_by=0.4.8.13 listed=1
+LastWritten 2026-06-23 23:33:49
+TorVersion Tor 0.4.8.13 (git-e153e72c01315f86)
+TotalBuildTimes 222
