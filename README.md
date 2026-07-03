@@ -1,165 +1,146 @@
-````markdown
-# GhostTrace v2.0
+<div align="center">
 
-**Advanced Proxy Chain Analysis & Traffic Routing Framework**
+# 👻 GhostTrace v2.0
 
-GhostTrace is a modular network traffic routing and proxy-chain analysis framework designed for security researchers, penetration testers, and privacy-focused professionals. It combines dynamic proxy management, identity rotation, traffic transformation techniques, and a modern monitoring interface into a single platform.
+### Advanced Network Routing, Proxy Chain Management & Traffic Analysis Framework
 
-The project focuses on providing a flexible environment for testing routing strategies, evaluating proxy reliability, monitoring network paths, and experimenting with traffic-layer obfuscation techniques within authorized environments.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-v2.0-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge">
+</p>
 
----
-
-## Overview
-
-Modern network assessments often require visibility into how traffic behaves across multiple routing layers. Managing proxies manually, validating availability, rotating identities, and monitoring routes can quickly become time-consuming.
-
-GhostTrace automates these tasks by providing:
-
-- Multi-hop proxy chain generation
-- Automated proxy collection and validation
-- Optional Tor integration
-- Identity rotation workflows
-- Browser fingerprint randomization
-- Traffic transformation modules
-- Real-time monitoring dashboard
-- CLI-driven automation
-- Extensible architecture for custom modules
+<p align="center">
+A modern framework for proxy-chain orchestration, route monitoring, identity rotation, and network traffic analysis.
+</p>
 
 ---
 
-## Key Features
+### 🚀 Core Capabilities
 
-| Capability | Description |
-|------------|-------------|
-| Dynamic Proxy Chaining | Automatically builds multi-hop routing chains from validated proxies |
-| Proxy Harvesting Engine | Collects and verifies proxies from multiple public sources |
-| Identity Rotation | Refreshes routing paths and network identities automatically |
-| Tor Integration | Optional Tor support for additional routing layers |
-| Fingerprint Randomization | Rotates realistic browser fingerprints and user-agent profiles |
-| Traffic Transformation | Modular traffic manipulation and pattern transformation engine |
-| Real-Time Dashboard | Browser-based monitoring and management interface |
-| Session Management | Persistent session tracking and route monitoring |
-| Modular Architecture | Easily extend functionality through custom modules |
-| Automated Testing | Built-in test suite for validation and reliability checks |
+🔗 Dynamic Multi-Hop Routing
+🌐 Automated Proxy Discovery & Validation
+🧭 Route Visualization & Monitoring
+🔄 Identity Rotation Workflows
+🧩 Modular Plugin Architecture
+📊 Real-Time Dashboard
+⚡ FastAPI-Powered Backend
+🧪 Automated Validation & Testing
 
 ---
 
-## Architecture
+## 📑 Table of Contents
+
+* Overview
+* Features
+* Architecture
+* Installation
+* Quick Start
+* Dashboard
+* Configuration
+* Testing
+* Roadmap
+* Contributing
+* License
+
+---
+
+# 🌍 Overview
+
+GhostTrace is a modular traffic-routing and proxy-chain management platform built for security researchers, developers, network analysts, and privacy-focused professionals.
+
+The framework simplifies the process of collecting routing endpoints, validating availability, constructing multi-hop chains, monitoring route health, and experimenting with traffic-routing workflows inside authorized environments.
+
+---
+
+# ✨ Features
+
+| Feature                | Description                                  |
+| ---------------------- | -------------------------------------------- |
+| Dynamic Proxy Chaining | Build routing paths from validated endpoints |
+| Proxy Harvesting       | Aggregate proxies from multiple sources      |
+| Validation Engine      | Health and availability verification         |
+| Identity Rotation      | Automated route refresh workflows            |
+| Tor Integration        | Optional additional routing layer            |
+| Fingerprint Profiles   | Configurable browser identity sets           |
+| Dashboard              | Real-time visibility and monitoring          |
+| Session Tracking       | Runtime route/session management             |
+| REST API               | Integration-ready architecture               |
+| Plugin System          | Extend functionality through custom modules  |
+
+---
+
+# 🏗 Architecture
 
 ```text
-GhostTrace/
+GhostTrace
 │
-├── ghost.py
-├── run.bat
-├── run.sh
+├── Core Engine
+│   ├── Routing Manager
+│   ├── Session Controller
+│   ├── Fingerprint Manager
+│   └── Tor Integration Layer
 │
-├── core/
-│   ├── engine/
-│   ├── sessions/
-│   ├── fingerprint/
-│   └── tor/
+├── Validation Layer
 │
-├── modules/
-│   ├── proxy_chain/
-│   ├── routing/
-│   ├── validation/
-│   └── transformation/
+├── Proxy Collection Engine
 │
-├── scrapers/
-│   ├── providers/
-│   └── validators/
+├── Dashboard & API
 │
-├── web/
-│   ├── dashboard/
-│   ├── api/
-│   └── websocket/
-│
-├── config/
-│   ├── settings.yaml
-│   ├── proxies.txt
-│   └── user_agents.json
-│
-├── tests/
-│
-└── output/
-    ├── logs/
-    └── reports/
+└── Reporting & Monitoring
 ```
 
 ---
 
-## Quick Start
+# ⚡ Quick Start
 
-### Windows
+## Windows
 
 ```powershell
 run.bat
 ```
 
-### Linux / macOS
+## Linux / macOS
 
 ```bash
 chmod +x run.sh
 ./run.sh
 ```
 
-The launcher automatically handles:
-
-- Python environment validation
-- Dependency installation
-- Virtual environment creation
-- Configuration loading
-- Component initialization
-- Dashboard preparation
-- Runtime diagnostics
-
 ---
 
-## Requirements
+# 📊 Dashboard
 
-| Component | Version |
-|------------|-----------|
-| Python | 3.10+ |
-| FastAPI | Latest |
-| Requests | Latest |
-| PySocks | Latest |
-| Uvicorn | Latest |
-| Pytest | Latest |
+GhostTrace includes a modern monitoring dashboard that provides:
 
-Install manually if needed:
+* Runtime status monitoring
+* Route visualization
+* Session statistics
+* Proxy pool visibility
+* Diagnostics and health checks
+* Live log streaming
 
-```bash
-pip install -r requirements.txt
+Default address:
+
+```text
+http://127.0.0.1:5000
 ```
 
 ---
 
-## Configuration
-
-Create your configuration file:
-
-```bash
-cp config/settings.yaml.example config/settings.yaml
-```
-
-Example:
+# 🔧 Configuration Example
 
 ```yaml
-tor:
+routing:
   enabled: true
-  control_port: 9051
 
 proxy_chain:
   min_length: 2
   max_length: 4
-  rotation_interval: 60
 
-fingerprint:
-  enabled: true
-  randomize_user_agent: true
-
-transformation:
-  enabled: true
+rotation:
+  interval: 60
 
 dashboard:
   host: 127.0.0.1
@@ -168,206 +149,87 @@ dashboard:
 
 ---
 
-## Command Line Usage
+# 🧪 Testing
 
-### Launch Demo
-
-```bash
-python ghost.py --demo
-```
-
-### Collect Fresh Proxies
-
-```bash
-python ghost.py --scrape
-```
-
-### Start Dashboard
-
-```bash
-python ghost.py --web
-```
-
-### Run Automated Rotation
-
-```bash
-python ghost.py --loop
-```
-
-### Execute Validation Tests
-
-```bash
-python ghost.py --test
-```
-
-### Custom Runtime
-
-```bash
-python ghost.py --duration 300
-```
-
----
-
-## Dashboard
-
-The built-in dashboard provides operational visibility through a clean web interface.
-
-Default address:
-
-```text
-http://127.0.0.1:5000
-```
-
-Available modules:
-
-| Module | Purpose |
-|----------|----------|
-| Engine Status | Runtime and service monitoring |
-| Active Routes | Current routing path visualization |
-| Proxy Pool | Available and validated proxies |
-| Identity Control | Rotation and refresh management |
-| Session Statistics | Connection metrics |
-| Logs Viewer | Live event stream |
-| Diagnostics | Health and component checks |
-
----
-
-## Traffic Transformation Engine
-
-GhostTrace includes a pluggable transformation layer capable of modifying traffic characteristics before transmission.
-
-Available modules:
-
-| Method | Purpose |
-|----------|----------|
-| Base64 Padding | Encodes payloads with randomized padding |
-| Compression Wrapping | Alters payload signatures through compression |
-| XOR Masking | Lightweight payload transformation |
-| Chunk Fragmentation | Splits data into variable-size segments |
-| Noise Injection | Adds randomized metadata patterns |
-
-The transformation engine is fully modular and can be extended through custom plugins.
-
----
-
-## Proxy Collection Sources
-
-GhostTrace can automatically gather proxies from publicly available providers.
-
-Examples include:
-
-- ProxyScrape
-- Proxy List Download
-- GeoNode
-- OpenProxyList
-- FreeProxyList
-- Spys.me
-
-Each proxy is validated before being added to the active pool.
-
----
-
-## Testing
-
-Execute the full test suite:
+Run all tests:
 
 ```bash
 pytest tests/ -v
 ```
 
-Or:
+or
 
 ```bash
 python ghost.py --test
 ```
 
-Testing covers:
+---
 
-- Proxy validation
-- Route generation
-- Configuration loading
-- Session handling
-- Dashboard components
-- Transformation modules
-- Core engine operations
+# 🎯 Design Principles
+
+### Modular
+
+Every component can be replaced or extended independently.
+
+### Observable
+
+Routing behaviour should be measurable and visible.
+
+### Automated
+
+Repetitive operational workflows should require minimal manual intervention.
 
 ---
 
-## Performance Goals
-
-| Metric | Target |
-|----------|----------|
-| Startup Time | < 10 Seconds |
-| Route Generation | < 3 Seconds |
-| Dashboard Response | < 100 ms |
-| Identity Rotation | Configurable |
-| Proxy Validation | Parallelized |
-
-Actual performance depends on system resources, network conditions, and proxy availability.
-
----
-
-## Security Notice
-
-GhostTrace is intended for:
-
-- Security research
-- Network analysis
-- Authorized penetration testing
-- Infrastructure validation
-- Educational environments
-- Laboratory experimentation
-
-Users are responsible for complying with all applicable laws, regulations, organizational policies, and authorization requirements before using this software in any environment.
-
----
-
-## Roadmap
+# 🗺 Roadmap
 
 ### v2.x
 
-- Enhanced dashboard analytics
-- Additional proxy providers
-- Advanced route visualization
-- Extended reporting system
-- Plugin marketplace architecture
-- Distributed validation workers
-- Container deployment support
-- REST API expansion
+* Advanced dashboard analytics
+* Extended reporting system
+* Additional validation providers
+* Plugin marketplace support
+* Containerized deployment options
+* Distributed validation workers
+* Enhanced API capabilities
 
 ---
 
-## License
-
-This project is provided for educational, research, and authorized security assessment purposes.
-
-Review the repository license for complete terms and usage conditions.
-
----
-
-## Contributing
+# 🤝 Contributing
 
 Contributions are welcome.
 
-When submitting pull requests:
+Please:
 
-1. Follow the existing code style.
-2. Include tests for new functionality.
-3. Update documentation where necessary.
-4. Ensure all automated tests pass.
-5. Keep modules isolated and maintainable.
+* Follow project conventions
+* Include tests for new features
+* Keep modules isolated
+* Update documentation
+* Ensure CI checks pass
 
 ---
 
-## Project Philosophy
+# ⚠ Disclaimer
 
-GhostTrace is built around three principles:
+GhostTrace is intended for:
 
-**Modularity** — Every component should be replaceable.
+* Security research
+* Educational use
+* Network experimentation
+* Authorized testing environments
 
-**Visibility** — Routing behavior should be observable and measurable.
+Users are solely responsible for ensuring compliance with applicable laws, policies, and authorization requirements.
 
-**Automation** — Repetitive operational tasks should be handled automatically.
+---
 
-The result is a flexible platform for experimenting with modern proxy-chain management, traffic routing workflows, and network-layer research.
-````
+# 📜 License
+
+See the repository license for complete terms and conditions.
+
+---
+
+<div align="center">
+
+### Built with ❤️ for modern network research and routing experimentation.
+
+</div>
